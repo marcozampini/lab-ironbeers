@@ -5,3 +5,25 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background: #2081c3;
+  color: #f7f9f9;
+}
+main {
+  background: #bfbfbf;
+}
+main a {
+  text-decoration: none;
+  padding: 0.5rem;
+  background: #2081c3;
+  color: #f7f9f9;
+}
+footer {
+  background: #0a2c42;
+  color: #f7f9f9;
+}
