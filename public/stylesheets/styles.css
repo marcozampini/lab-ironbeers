@@ -16,13 +16,18 @@ body {
 header {
   background: #2081c3;
   color: #f7f9f9;
+  padding: 0 2rem;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
 }
 nav a {
   text-decoration: none;
   color: white;
 }
 main {
-  background: #bfbfbf;
+  background: white;
 }
 main a {
   text-decoration: none;
@@ -30,7 +35,33 @@ main a {
   background: #2081c3;
   color: #f7f9f9;
 }
+.beers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 5rem;
+}
+.beer {
+  padding: 2rem;
+}
+.beer picture img {
+  height: 15rem;
+  width: auto;
+}
+.beer picture {
+  display: block;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.beer h3 {
+  padding-bottom: 0.2rem;
+}
+.beer h4 {
+  padding-bottom: 1rem;
+  color: #bfbfbf;
+}
+
 footer {
   background: #0a2c42;
   color: #f7f9f9;
+  padding: 1rem;
 }
